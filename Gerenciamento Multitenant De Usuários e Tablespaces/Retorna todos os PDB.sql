@@ -1,0 +1,5 @@
+SELECT PDB_ID, PDB_NAME, STATUS FROM DBA_PDBS ORDER BY PDB_ID;
+
+OU
+
+Pode utilizar o comando: SHOW PDBS;

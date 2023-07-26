@@ -1,0 +1,3 @@
+ALTER PLUGGABLE DATABASE ALL OPEN; -- Inicia todos os PDB
+
+ALTER PLUGGABLE DATABASE "NAME_PDB" OPEN -- Inicia um PDB específico

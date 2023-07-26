@@ -1,0 +1,4 @@
+set pagesize 200
+set linesize 400
+
+SELECT NAME, CON_ID, DBID, CON_UID, GUID FROM V$CONTAINERS;
