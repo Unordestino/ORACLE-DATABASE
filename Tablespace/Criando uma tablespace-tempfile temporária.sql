@@ -1,0 +1,6 @@
+CREATE TEMPORARY TABLESPACE temp_tablespace
+TEMPFILE '/u01/app/oracle/oradata/mydb/tempfile01.dbf'
+SIZE 500M
+AUTOEXTEND ON
+NEXT 50M
+MAXSIZE UNLIMITED;
