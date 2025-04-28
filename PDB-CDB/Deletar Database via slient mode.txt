@@ -1,0 +1,4 @@
+$ ps -ef | grep pmon
+Entre com as variáveis comando . oraenv
+$ env | grep ORA
+$ dbca -silent -deleteDatabase -sourceDB NONCDB -forceArchiveLogDeletion -sysDBAPassword Wellcome1 -sysDBAUserName SYS

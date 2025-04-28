@@ -1,0 +1,4 @@
+create pluggable database PDB_TESTE2 admin user admin identified by "Wellcome1"
+-----------------------------------------------------------------
+alter pluggable database pdb2 close;
+drop pluggable database pdb2 including datafiles;

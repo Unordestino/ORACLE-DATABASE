@@ -1,0 +1,24 @@
+$  cat >> /home/oracle/.bash_profile <<EOF
+
+
+alias tns='vi ${TNS_ADMIN}tnsnames.ora'
+alias lsn='vi ${TNS_ADMIN}listener.ora'
+alias sqlplus='rlwrap sqlplus'
+alias s='rlwrap sqlplus / as sysdba'
+alias p='ps -aux | grep [^]]pmon | grep -v grep'
+alias l='lsnrctl status'
+
+EOF
+
+$ cat /home/oracle/.bash_profile
+
+
+=================================================================
+== Testando comandos
+=================================================================
+
+$ p
+$ l
+$ s
+$ tns
+$ lsn
